@@ -11,6 +11,13 @@ import tatGeometric from "@/assets/tat-geometric.jpg";
 import tatSleeve from "@/assets/tat-sleeve.jpg";
 import tatMinimal from "@/assets/tat-minimal.jpg";
 import tatCoverup from "@/assets/tat-coverup.jpg";
+import tatLettering from "@/assets/tat-lettering.jpg";
+import tatSkull from "@/assets/tat-skull.jpg";
+import tatChest from "@/assets/tat-chest.jpg";
+import tatNeck from "@/assets/tat-neck.jpg";
+import tatHand from "@/assets/tat-hand.jpg";
+import tatLeg from "@/assets/tat-leg.jpg";
+import graffitiWall from "@/assets/graffiti-wall.jpg";
 import artist1 from "@/assets/artist-1.jpg";
 import artist2 from "@/assets/artist-2.jpg";
 import artist3 from "@/assets/artist-3.jpg";
@@ -47,6 +54,12 @@ const GALLERY = [
   { src: tatSleeve, cat: "Sleeves", num: "07", span: "row-span-2" },
   { src: tatMinimal, cat: "Minimal", num: "08", span: "" },
   { src: tatCoverup, cat: "Cover Ups", num: "09", span: "" },
+  { src: tatLettering, cat: "Lettering", num: "10", span: "row-span-2" },
+  { src: tatSkull, cat: "Knuckles", num: "11", span: "" },
+  { src: tatChest, cat: "Chest Piece", num: "12", span: "" },
+  { src: tatNeck, cat: "Neck", num: "13", span: "" },
+  { src: tatHand, cat: "Mandala", num: "14", span: "row-span-2" },
+  { src: tatLeg, cat: "Traditional", num: "15", span: "" },
 ];
 
 const ARTISTS = [
