@@ -543,9 +543,9 @@ function Index() {
             </div>
             <button
               type="submit"
-              className="mt-6 w-full bg-blood px-7 py-4 font-heavy uppercase tracking-widest text-bone border-2 border-bone hover:bg-acid hover:text-asphalt transition-colors"
+              className="label-tag label-tag-hover mt-6 w-full justify-center !bg-acid !text-asphalt !border-asphalt"
             >
-              Send Request →
+              ◤ Send Request →
             </button>
             <p className="mt-3 font-mono text-[10px] uppercase tracking-widest text-dirty">
               Sends to WhatsApp · we reply within the day.
