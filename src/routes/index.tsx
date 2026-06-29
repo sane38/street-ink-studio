@@ -144,9 +144,9 @@ function Nav() {
         </nav>
         <a
           href="#book"
-          className="font-heavy uppercase tracking-widest text-xs sm:text-sm bg-blood text-bone px-4 py-2.5 border-2 border-blood hover:bg-asphalt hover:text-blood transition-colors"
+          className="label-tag label-tag-hover text-xs sm:text-sm !bg-blood !text-bone !border-bone"
         >
-          Book Session
+          ◤ Book Session
         </a>
       </div>
     </header>
@@ -232,15 +232,15 @@ function Index() {
             <div className="mt-10 flex flex-wrap gap-4">
               <a
                 href="#book"
-                className="group inline-flex items-center gap-3 bg-blood px-7 py-4 font-heavy uppercase tracking-widest text-bone shadow-[6px_6px_0_0_var(--acid)] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_0_var(--acid)] transition-all"
+                className="label-tag label-tag-hover !bg-blood !text-bone !border-bone text-base px-7 py-4"
               >
-                Book Session <span aria-hidden>→</span>
+                ◤ Book Session →
               </a>
               <a
                 href="#gallery"
-                className="inline-flex items-center gap-3 border-2 border-bone bg-transparent px-7 py-4 font-heavy uppercase tracking-widest text-bone hover:bg-bone hover:text-asphalt transition-colors"
+                className="label-tag label-tag-hover !bg-asphalt !text-bone !border-bone text-base px-7 py-4"
               >
-                View Artwork
+                ◤ View Artwork
               </a>
             </div>
           </div>
